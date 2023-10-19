@@ -6,7 +6,7 @@ module.exports = {
       mullish: ["Mulish", "sans-serif"],
 
     backgroundSize: {
-      '100%': '100%',
+      background-size: 100% 100%;
     }
       
     },

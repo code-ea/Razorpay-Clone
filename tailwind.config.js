@@ -26,5 +26,10 @@ module.exports = {
   },
   },
   plugins: [],
+  safelist: [
+    {
+      pattern: /(bg|text|border)-(deepBlue|lightBlue|LightBle300)/,
+    },
+  ],
 }
 

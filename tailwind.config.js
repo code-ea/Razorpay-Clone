@@ -4,6 +4,11 @@ module.exports = {
   theme: {
     extend: {fontFamily: {
       mullish: ["Mulish", "sans-serif"],
+
+    backgroundSize: {
+      '100%': '100%',
+    }
+      
     },
    
     colors: {
@@ -26,10 +31,5 @@ module.exports = {
   },
   },
   plugins: [],
-  safelist: [
-    {
-      pattern: /(bg|text|border)-(deepBlue|lightBlue|LightBle300)/,
-    },
-  ],
 }
 

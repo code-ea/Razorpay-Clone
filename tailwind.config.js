@@ -4,11 +4,6 @@ module.exports = {
   theme: {
     extend: {fontFamily: {
       mullish: ["Mulish", "sans-serif"],
-
-    backgroundSize: {
-      background-size: 100% 100%;
-    }
-      
     },
    
     colors: {

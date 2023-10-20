@@ -939,8 +939,8 @@
           </div>
 
           <!--demo-box-->
-          <div class="w-full flex flex-row items-center justify-evenly border border-slate-700
-          mb-24 gap-y-6 relative rounded-md p-8">
+          <div class="w-full items-center justify-evenly border border-slate-700
+          mb-24 gap-y-6 relative rounded-md p-8 hidden md:flex-col lg:flex-row md:flex lg:flex">
 
               <p class="font-mullish text-white text-xl ">
               Check out the live demo to learn how RazorpayX works.
@@ -977,7 +977,7 @@
         loading="lazy"
         class="absolute w-[233px] -right-[3.5rem] -top-[6rem] z-[10]">
 
-        <div class="w-full grid grid-cols-3 gap-y-10 gap-x-4 relative z-[100]">
+        <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-4 relative z-[100]">
           <!--item 1-->
           <div class="relative flex items-center z-0">
             <h2 class="text-[#02042a]Head font-mullish font-extrabold text-4xl leading-[3.375rem]"
@@ -1112,7 +1112,7 @@
         >Empower your business with all the right tools to accept online payments and provide the best customer experience</p>
         
         <!--grid-->
-        <div class="grid grid-cols-4 gap-[2rem] mt-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[2rem] mt-8">
           <!--card1-->
           <div>
             <img src="./images/instant-activation-icon.svg" alt="" loading="lazy">
@@ -1170,10 +1170,10 @@
     
     <section class="bg-[#f5f8fe] relative pt-40 pb-12 -mt-[200px] -z-[100]">
 
-      <div class="w-11/12 max-w-[1080px] mx-auto relative flex flex-row">
+      <div class="w-11/12 max-w-[1080px] mx-auto relative flex flex-col md:flex-row">
 
         <!--left part-->
-        <div class="flex flex-col justify-center max-w-[calc(100%-500px)]">
+        <div class="flex flex-col justify-center w-full md:max-w-[calc(100%-500px)]">
             <h3 class="font-mullish font-bold text-2xl text-[#02042a]Head">Join the 50,00,000 businesses using Razorpay</h3>
             <div class="w-6 h-1 bg-[#61cea6] mb-10 my-4"></div>
             <p class="font-mullish opacity-80">We make it easier for you to focus on building great products while we work on simplifying your payments. Become one of us by joining thousands of our happy users and simplify the online payment experience for your customers.</p>
@@ -1181,7 +1181,7 @@
         </div>
         
         <!--right part-->
-        <div class="h-[500px] w-[500px] relative overflow-y-hidden">
+        <div class="h-[500px] w-[500px] relative overflow-y-hidden mx-auto">
           <div style="background: linear-gradient(180deg, #f4f8ff, #fff0)"
           class="absolute w-full h-[150px] top-0 z-50">  </div>
 
@@ -1237,7 +1237,7 @@
 
     
       <!--main content-->
-      <div class="flex flex-row max-w-[960px] items-center mx-auto my-20 space-x-[10rem]">
+      <div class="flex flex-col xl:flex-row max-w-[960px] items-center mx-auto my-20 space-x-[10rem]">
         <!--left image-->
         <img src="./images/testimonial.jpg" alt=""
           loading="lazy"
@@ -1246,17 +1246,17 @@
           width="320px">
 
         <!--right part-->
-        <div class="max-w-[400px]">
+        <div class="max-w-[400px] flex flex-col">
           <img src="./images/quotes.svg" alt=""
           loading="lazy"
           class="-mb-2"
           height="40px"
           width="35px">
-          <p class="font-mullish text-3xl font-extralight">Readymade Closed Wallet Solution For Quick Refunds</p>
-          <a href="" class="text-[#818597] italic underline">Learn More</a>
-          <h3 class="font-mullish text-2xl font-extrabold">Lorem Ipsum</h3>
-          <p class="font-mullish font-medium">CEO, XYZ Engineering Company</p>
-          <img src="./images/fake-company-logo.png" alt="" width="80px" height="40px">
+          <p class="font-mullish text-3xl font-extralight xl:order-1">Readymade Closed Wallet Solution For Quick Refunds</p>
+          <a href="" class="text-[#818597] italic underline xl:order-1">Learn More</a>
+          <h3 class="font-mullish text-2xl font-extrabold -order-1 xl:order-1">Lorem Ipsum</h3>
+          <p class="font-mullish font-medium xl:order-1">CEO, XYZ Engineering Company</p>
+          <img src="./images/fake-company-logo.png" alt="" width="80px" height="40px" class="xl:order-1">
         </div>
       </div>
 
@@ -1320,7 +1320,7 @@
         </div>
 
         <!--right side wali image-->
-        <img src="./images/ctaImg.svg" alt="" width="240px" height="282px" class="mt-16 pt-3">
+        <img src="./images/ctaImg.svg" alt="" width="240px" height="282px" class="mt-16 pt-3 hidden lg:block">
 
 
       </div>

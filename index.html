@@ -55,7 +55,7 @@
 
         <ul class="flex space-x-6">
           <li
-            class="text-white font-mullish py-7 hover:text-[#2b84ea] transition-all duration-200 relative group"
+            class="text-white font-mullish py-7 hover:text-[#2b84ea] transition-all duration-200 relative group hidden lg:block"
           >
             <a href="#">Payments</a>
             <div
@@ -63,7 +63,7 @@
             ></div>
           </li>
           <li
-            class="text-white font-mullish py-7 hover:text-[#2b84ea] transition-all duration-200 relative group"
+            class="text-white font-mullish py-7 hover:text-[#2b84ea] transition-all duration-200 relative group hidden lg:block"
           >
             <a href="#">Banking</a>
             <div
@@ -71,17 +71,17 @@
             ></div>
           </li>
           <li
-            class="text-white font-mullish py-7 hover:text-[#2b84ea] transition-all duration-200 relative group"
+            class="text-white font-mullish py-7 hover:text-[#2b84ea] transition-all duration-200 relative group hidden lg:block"
           >
             <a href="#">Line of Credit</a>
           </li>
           <li
-            class="text-white font-mullish py-7 hover:text-[#2b84ea] transition-all duration-200 relative group"
+            class="text-white font-mullish py-7 hover:text-[#2b84ea] transition-all duration-200 relative group hidden lg:block"
           >
             <a href="#">Payroll</a>
           </li>
           <li
-            class="text-white font-mullish py-7 hover:text-[#2b84ea] transition-all duration-200 relative group"
+            class="text-white font-mullish py-7 hover:text-[#2b84ea] transition-all duration-200 relative group hidden lg:block"
           >
             <a href="#">Resources</a>
             <div
@@ -89,7 +89,7 @@
             ></div>
           </li>
           <li
-            class="text-white font-mullish py-7 hover:text-[#2b84ea] transition-all duration-200 relative group"
+            class="text-white font-mullish py-7 hover:text-[#2b84ea] transition-all duration-200 relative group hidden lg:block"
           >
             <a href="#">Support</a>
             <div
@@ -97,7 +97,7 @@
             ></div>
           </li>
           <li
-            class="text-white font-mullish py-7 hover:text-[#2b84ea] transition-all duration-200 relative group"
+            class="text-white font-mullish py-7 hover:text-[#2b84ea] transition-all duration-200 relative group hidden lg:block"
           >
             <a href="#">Pricing</a>
             <div
@@ -106,14 +106,14 @@
           </li>
         </ul>
         <div class="flex space-x-6">
-          <img src="./images/india-flag.svg" width="28px" height="20px" />
+          <img src="./images/india-flag.svg" width="28px" height="20px" class="hidden lg:block" />
           <button
             class="py-3 px-5 font-mullish text-white border-[#2b84ea] border rounded-sm text-sm font-bold flex"
           >
             Log in
           </button>
           <button
-            class="py-3 px-4 font-mullish rounded-sm text-sm font-bold bg-white text-[#4b94ed] border transition-all duration-200 hover:text-[#2b84ea]"
+            class="py-3 px-4 font-mullish rounded-sm text-sm font-bold bg-white text-[#4b94ed] border transition-all duration-200 hover:text-[#2b84ea] hidden lg:block"
           >
             Sign Up
             <svg
@@ -131,6 +131,9 @@
               />
             </svg>
           </button>
+          <button>
+            <ion-icon name="menu-outline" class="pr-40 font-mullish text-md font-bold text-white transition-all duration-200 lg:hidden inline-block"></ion-icon>
+          </button>
         </div>
       </div>
     </nav>
@@ -138,7 +141,7 @@
     <!--Hero Section-->
     <section class="relative bg-[#02042a]">
       <div
-        class="widht-10/12 max-w-[1080px] flex flex-row justify-between items-center mx-auto"
+        class="widht-10/12 max-w-[1080px] flex flex-col lg:flex-row justify-between items-center mx-auto"
       >
         <!--Left Part-->
         <div class="space-y-8">
@@ -220,7 +223,7 @@
               </li>
               <li class="font-mullish flex items-center space-x-2">
                 <img src="check.svg" />
-                <span>100+ Payment Methods</span>
+                <span>Industry Leading Success Rate</span>
               </li>
               <li class="font-mullish flex items-center space-x-2">
                 <img src="check.svg" />

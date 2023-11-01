@@ -11,7 +11,7 @@
 
 This open-source project aims to replicate the user interface and user experience of the RazorPay website's frontend. RazorPay is a popular payment gateway that provides a smooth payment processing experience for businesses and their customers.
 
-HTML and TailwindCSS are the technogies used in this project.
+HTML and TailwindCSS are the technologies used in this project.
 
 Tailwind CSS is a utility-first CSS framework that enables users to create applications faster and easier. It provides a wide range of responsive utility classes that can be used to control the layout, color, spacing, typography, shadows, and more to create a completely custom component design without leaving your HTML or writing a single line of custom CSS
 
@@ -28,14 +28,14 @@ Tailwind CSS is a utility-first CSS framework that enables users to create appli
 
 ## Installation
 
-**Step1:** Install tailwindcss and its peer dependencies via npm, and create your tailwind.config.js file.
+**Step 1:** Install tailwindcss and its peer dependencies via npm, and create your tailwind.config.js file.
 
 >**Terminal**
 ```bash
 ▶ npm install -D tailwindcss postcss autoprefixer
 ▶ npx tailwindcss init
 ```
-**Step2:** Add tailwindcss and autoprefixer to your postcss.config.js file, or wherever PostCSS is configured in your project.
+**Step 2:** Add tailwindcss and autoprefixer to your postcss.config.js file, or wherever PostCSS is configured in your project.
 
 
 >**postcss.config.js**
@@ -48,7 +48,7 @@ module.exports = {
   }
 }
 ```
-**Step3:** Add the paths to all of your template files in your tailwind.config.js file.
+**Step 3:** Add the paths to all of your template files in your tailwind.config.js file.
 
 >**tailwind.config.js**
 
@@ -62,7 +62,7 @@ module.exports = {
   plugins: [],
 }
 ```
-**Step4:** Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.
+**Step 4:** Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.
 
 
 >**main.css**
@@ -72,7 +72,7 @@ module.exports = {
 @tailwind components;
 @tailwind utilities;
 ```
-**Step5:** Run your build process with npm run dev or whatever command is configured in your package.json file.
+**Step 5:** Run your build process with npm run dev or whatever command is configured in your package.json file.
 
 
 >**Terminal**
@@ -80,7 +80,7 @@ module.exports = {
 ```bash
 ▶ npm run dev
 ```
-**Step6:** Make sure your compiled CSS is included in the <head> (your framework might handle this for you), then start using Tailwind’s utility classes to style your content.
+**Step 6:** Make sure your compiled CSS is included in the <head> (your framework might handle this for you), then start using Tailwind’s utility classes to style your content.
 
 >**index.html**
 
